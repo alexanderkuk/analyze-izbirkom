@@ -609,6 +609,7 @@ def show_votes_share_total_corellation(uiks):
     ax.xaxis.set_major_formatter(formater)
     ax.set_xlabel(u'Явка')
     ax.set_ylabel(u'Число участков')
+    fig.savefig('fig.png', dpi=300, bbox_inches='tight')
 
 
 def dump_map_data(uiks):
